@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="flex items-center justify-between">
+          <div class="left flex items-center">
+            <div class="status">
+              <img src="./images/upes.jpg" alt="" />
+            </div>
+            <div>
+              <a href="#">Home</a>
+              <a href="#about">About</a>
+              <a href="#background">Background</a>
+              <a href="#work">My work</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <form method="get" action="#contactus">
+              <button class="btn btn-primary" type="submit">Contact</button>
+           </form>
+          
+          </div>
+        </nav>
+        <div class="hero flex items-center justify-between">
+          <div class="left flex-1 flex justify-center">
+            <img src="./images/man.png" alt="" />
+          </div>
+          <div class="right flex-1">
+            <h3>Purvansh Rathore</h3>
+            <h4>I am a <span>sophomore </span>pursuing Btech CSE at UPES</h4>
+            <p>
+              Hello everyone! My name is Purvansh Rathore and this is a sample
+              portfolio to show my web development skills.<br />
+              Please don't judje my editorial skills through this portfolio
+            </p>
+            <div>
+              <form method="get" action="./zip/Resume.zip">
+                <button class="btn btn-secondary" type="submit">Download CV</button>
+             </form>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="about">
+      <div class="container flex items-center justify-between">
+        <div class="flex-1 flex justify-center">
+          <img class="about-me-img" src="./images/man2.jpeg" alt="" />
+        </div>
+        <div class="flex-1">
+          <h1>About <span>Me</span></h1>
+          <h3>Welcome! I'm Purvansh Rathore.</h3>
+          <p>
+            The black line that you see cutting upwards is done intentionally
+            and is done by clip path in which I have given the dimensions of the
+            polygon to make it look like this. Also I have linked my social
+            handles with the icons below which will open in the new tab.
+          </p>
+          <div class="social">
+            <a
+              href="https://www.linkedin.com/in/purvanshrathore/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img class="in" src="./images/in.png" alt=""
+            /></a>
+            <a
+              href="https://www.instagram.com/purvanshrathore/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./images/193.png" alt=""
+            /></a>
+            <a
+              href="https://twitter.com/PurvanshRathore"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./images/twitter.png" alt=""
+            /></a>
+            <a
+              href="https://github.com/Kemist24"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./images/github.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="background" class="background">
+      <h1>Background image</h1>
+      <p>
+        Here I have added an image in the background and overlayed the text on
+        top, also added the clip path + download cv button is also added here
+      </p>
+      <form method="get" action="./zip/Resume.zip">
+        <button class="btn btn-primary" type="submit">Download CV</button>
+     </form>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h1 class="section-heading"><span>My </span> Space</h1>
+        <p>
+          Here I have added Slider functionality. Can access through the dots
+          below
+        </p>
+        <div class="slider">
+          <div class="slide">
+            <img src="./images/aiml.png" alt="" />
+            <p>
+              AIML is used to define a set of rules for an AI application to
+              follow. These rules can be used to control the behavior of the AI,
+              determine the response to user input, and even generate new
+              responses. AIML files are often used in combination with other AI
+              technologies, such as natural language processing and machine
+              learning.
+            </p>
+            <span>- AIMl, UPES</span>
+          </div>
+          <div class="slide">
+            <img src="./images/cloud.png" alt="" />
+            <p>
+              Cloud computing is the delivery of computing services—including
+              servers, storage, databases, networking, software, analytics, and
+              intelligence—over the Internet (“the cloud”) to offer faster
+              innovation, flexible resources, and economies of scale.
+            </p>
+            <span>- CC&VT, UPES</span>
+          </div>
+          <div class="slide">
+            <img src="./images/cyber.png" alt="" />
+            <p>
+              Cyber Security is a technology which creates a safe and an
+              encrypted connection on the Internet from a device to a network.
+              The practice is used by individuals and enterprises to protect
+              against unauthorized access to data centers and other computerized
+              systems.
+            </p>
+            <span>- Cyber Security, UPES</span>
+          </div>
+        </div>
+        <div class="slider-dots"></div>
+      </div>
+    </section>
+    <section id="work" class="work">
+      <div class="container">
+        <h1 class="section-heading"><span>My</span> Work</h1>
+        <p>I also have an interest in video editing.</p>
+        <div class="card-wrapper">
+          <div class="emb_container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jqH5xSD4P_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nrPdipUzqy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactus" class="contact">
+      <div class="container">
+          <h1 class="section-heading">Contact <span>Us</span></h1>
+          <p>Made this Portfolio in a day. Hope You like it.</p>
+          <div class="card-wrapper">
+         
+              <div class="card">
+                  
+                  <h1>Email Me At</h1>
+                  <h6>       purvanshrathore2410@gmail.com</h6>
+              </div>
+             
+
+          </div>
+
+          <form action="">
+              <div class="input-wrap">
+                  <input type="text" placeholder="Your Name *">
+                  <input type="email" placeholder="Your Email *">
+              </div>
+              <div class="input-wrap-2">
+                  <input type="text" placeholder="Your Subject...">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+              </div>
+          </form>
+      </div>
+  </section>
+ 
+</div>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
